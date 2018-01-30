@@ -1,0 +1,15 @@
+
+    <?php
+        echo $this->tag->form(
+            [
+                "test/save",
+                "autocomplete" => "off",
+                "class"=>"from-horizontal"
+            ]);
+    ?>
+    name <br>
+    <input type="text" name="name"/> <br>
+     year <br>
+    <input type="text" name="year"/> <br>
+    <button>Save</button>
+<?php echo $this->tag->endform(); ?>
